@@ -1,5 +1,17 @@
 import os
 from Lib import*
+try:
+	os.mkdir("Statuses")
+except:
+	pass
+try:
+	os.mkdir("Statuses/Images")
+except:
+	pass
+try:
+	os.mkdir("Statuses/Videos")
+except:
+	pass
 print("Installing requirements...")
 os.system("pip3 install pyfiglet")
 clear()
