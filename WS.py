@@ -28,7 +28,7 @@ jpgs=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.jpg")
 pngs=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.png")
 
 
-ver=("Enter 1 to save images.\nEnter 2 to save videos")
+ver=("Enter 1 to save images.\nEnter 2 to save videos.")
 print("-"*67)
 print("   ")
 print(ver)
