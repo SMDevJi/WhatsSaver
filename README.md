@@ -1,7 +1,7 @@
 # WhatsSaver
 This tool helps to locally save Whatsapp status files in Device storage.
 # How to download and use
-Note! This tool only works in python3 and in Android. It can run in any python IDE or termux. It is recommended to run in Pydroid.
+Note! This tool only works in python3 and in Android. It can run in any python IDE (but not in termux). It is recommended to run in Pydroid.
 
 * Step-1
 Download and install Pydroid 3 from google play store.
