@@ -18,7 +18,7 @@ clear()
 from pyfiglet import Figlet
 k = Figlet(font='standard')
 print (k.renderText('WhatsSaver'))
-print("                                 ---by DarkGuySM")
+print("                                 ---by SMDevJi")
 import shutil
 import glob
 
