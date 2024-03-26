@@ -7,7 +7,7 @@ Note! This tool only works in python3 and in Android. It can run in any python I
 Download and install Pydroid 3 from google play store.
 
 * Step-2
-Download the zip file from here-  https://github.com/DarkGuySM/WhatsSaver/archive/main.zip
+Download the zip file from here-  https://github.com/SMDevJi/WhatsSaver/archive/main.zip
 
 * Step-3
 Move the file somewhere you can easily find it. Then extract it using any file manager (like Zarchiever)
