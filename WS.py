@@ -18,14 +18,21 @@ clear()
 from pyfiglet import Figlet
 k = Figlet(font='standard')
 print (k.renderText('WhatsSaver'))
-print("                                 ---by SMDevJi")
+print("                                 ---by DarkGuySM")
 import shutil
 import glob
 
-mp4s=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.mp4")
-gps=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.3gp")
-jpgs=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.jpg")
-pngs=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.png")
+if os.path.exists("/storage/emulated/0/WhatsApp/Media/.Statuses/"):
+	mp4s=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.mp4")
+	gps=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.3gp")
+	jpgs=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.jpg")
+	pngs=glob.glob("/storage/emulated/0/WhatsApp/Media/.Statuses/*.png")
+else:
+	mp4s=glob.glob("/storage/emulated/0/Android/Media/com.whatsapp/WhatsApp/Media/.Statuses/*.mp4")
+	gps=glob.glob("/storage/emulated/0/Android/Media/com.whatsapp/WhatsApp/Media/.Statuses*.3gp")
+	jpgs=glob.glob("/storage/emulated/0/Android/Media/com.whatsapp/WhatsApp/Media/.Statuses/*.jpg")
+	pngs=glob.glob("/storage/emulated/0/Android/Media/com.whatsapp/WhatsApp/Media/.Statuses/*.png")
+	
 
 
 ver=("Enter 1 to save images.\nEnter 2 to save videos.")
